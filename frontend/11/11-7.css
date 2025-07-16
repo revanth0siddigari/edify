@@ -1,0 +1,96 @@
+.con-soc{
+    background-color: #589167;
+    display: flex;
+    justify-content: space-between;
+}
+.fa-brands{
+    color: white;
+    margin: 4px ;
+    
+}
+.fa-solid{
+    color: white;
+    padding-left: 4px;
+}
+body{
+    margin: 0px;
+}
+.con{
+    padding: 4px 80px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.soc{
+    padding: 4px 80px;;
+}
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name > a {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 40px;
+    text-decoration: none;
+    color: #333;
+}
+
+.name ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0;
+    padding: 0 10px 0 0;
+    padding-left: 10px;
+}
+
+.name ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.name ul li a:hover {
+    color: #589167;
+}
+.hero{
+    background-image: url('https://preview.colorlib.com/theme/counselor/images/bg_1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: relative;
+    z-index: 0;
+    height: 850px;
+    
+
+}
+.hero-text{
+    margin-bottom: 1.5rem;
+    padding-top: 20%;
+    padding-left: 20%;
+}
+.hero-text h1 {
+    font-size: 60px;
+    color: black;
+    line-height: 1.2;
+    font-weight: 500;
+    max-width: 30%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hero-text button{
+    background-color: #589167;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+#r1{
+    background-color: white;
+    color: black;
+    
+}

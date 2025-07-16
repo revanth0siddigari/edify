@@ -1,0 +1,48 @@
+
+
+.container {
+    text-align: center;
+    background-image: url("https://preview.colorlib.com/theme/farmie/img/bg-img/8.jpg");
+    position: relative;
+    z-index: 1;
+    padding: 60px 20px;
+}
+h3, h1, p {
+    color: white;
+}
+#email {
+    padding: 10px 30px;
+    width: 690px;
+    height: 48px;
+    margin-right: 0px;
+    border: none;
+}
+#sub {
+    padding: 0px 30px;
+    height: 48px;
+    width: 170px;
+    background-color: #77b122;
+    color: white;
+    border: none;
+    position: relative;
+    left: -5px;
+}
+.forem {
+    flex: 0 0 100%;
+    max-width: 100%;
+    margin-top: 20px;
+}
+body {
+    color: #707070;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
