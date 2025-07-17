@@ -1,0 +1,139 @@
+body{
+    margin: 0px;
+}
+.navbar{
+    position:relative;
+    top: 0;
+
+}
+.navbar nav {
+    background: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    transition: background 0.3s;
+    box-shadow: none;
+}
+.navi{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: transparent;
+    position: relative;
+}
+.nav-links ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.reg-log ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.nav-logo{
+    flex: 0.4;
+    padding-left:  30px; ;
+}
+.nav-links{
+    flex: 0.4;
+}
+.reg-log{
+    flex: 0.2;
+}
+.container{
+    background-image: url("https://preview.colorlib.com/theme/courses/assets/img/hero/h1_hero.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.hero{
+    
+    max-width: 300px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: 20%;
+    padding-left: 15px;
+    padding-right: 15px;
+    align-items: center;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.features{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.feature{
+    display: flex;
+    align-items: center;
+    padding: 29px 24px;
+    border-radius: 20px;
+    background-color: white;
+    margin-bottom: -30px;
+    width: 21%;
+    height: 85px;
+    box-shadow: #6c757d 0px 0px 10px 0px;
+}
+.feature-text{
+    padding-left: 17px;
+}
+.feature-text h3{
+    font-size: 20px;
+}
+.feature-text p{
+    font-size: 16px;
+    color: #6c757d;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0;
+}
+.context-txt{
+    text-align: center;
+    padding: 0 20px;
+    font-size: 40px;
+    padding-bottom: 5%;
+}
+.courses{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.course{
+    max-width: 33%;
+    box-shadow: #6c757d 0px 0px 10px 0px;
+    align-items:center;
+    border-radius: 20px;
+    
+}
+.course img{
+    width: 100%;
+}
+.course-txt{
+    padding: 10px;
+    text-align: center;
+
+}
+.course-txt button{
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    color: rgb(0, 119, 255);
+    border-radius: 4px;
+    border-color: #a3a5a8;
+    width: 80%;
+}
+.btn:hover{
+    color: white;
+    background-color: rgba(255, 157, 0, 0.938);
+    border-color:  rgba(255, 157, 0, 0.938);
+    transition: 0.5s;
+}
