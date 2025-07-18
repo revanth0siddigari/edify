@@ -1,0 +1,47 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0px;
+}
+
+#customer-table {
+    background-color: rgb(247, 249, 250);
+    margin: 30px;
+}
+#customer-table, #customer-table th, #customer-table td {
+    border: 2px solid gray;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 12px 15px;
+}
+.closed {
+    background-color: rgb(255, 210, 209);
+    border: 2px solid #d76365;
+    color: #d76365;
+    padding: 5px 7px;
+    border-radius: 5px;
+}
+.open {
+    background-color: rgb(230, 251, 252);
+    color: rgb(81, 153, 153);
+    border: 2px solid rgb(81, 153, 153);
+    padding: 5px 7px;
+    border-radius: 5px;
+}
+th {
+    text-align: left;
+}
+#customer-cards {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+.customer-info {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 450px;
+    padding: 10px;
+}
+th {
+    text-shadow: 1px 1px 4px #FF0000;
+}

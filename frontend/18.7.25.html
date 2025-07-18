@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="18.7.25.css" />
+</head>
+
+<body>
+    <div>
+        <table id="customer-table">
+            <thead>
+                <tr>
+                    <th>Customer ID</th>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Account created</th>
+                    <th>Status</th>
+                    <th>Ticket ID</th>
+                    <th>Ticket Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>101</td>
+                    <td>John Doe</td>
+                    <td>john.doe@gmail.com</td>
+                    <td>01-10-2024</td>
+                    <td>Active</td>
+                    <td>5001</td>
+                    <td><span class="closed">Closed</span></td>
+                </tr>
+                <tr>
+                    <td>102</td>
+                    <td>Jane Smith</td>
+                    <td>jane.smith@yahoo.com</td>
+                    <td>05-11-2024</td>
+                    <td>Inactive</td>
+                    <td>5002</td>
+                    <td><span class="open">Open</span></td>
+                </tr>
+                <tr>
+                    <td>103</td>
+                    <td>Michael Brown</td>
+                    <td>michael.brown@gmail.com</td>
+                    <td>12-09-2024</td>
+                    <td>Active</td>
+                    <td>5003</td>
+                    <td><span class="closed">Closed</span></td>
+                </tr>
+                <tr>
+                    <td>104</td>
+                    <td>Emily Davis</td>
+                    <td>emily.davis@outlook.com</td>
+                    <td>22-08-2024</td>
+                    <td>Active</td>
+                    <td>5004</td>
+                    <td><span class="open">Open</span></td>
+                </tr>
+                <tr>
+                    <td>105</td>
+                    <td>William Johnson</td>
+                    <td>william.johnson@gmail.com</td>
+                    <td>30-07-2024</td>
+                    <td>Inactive</td>
+                    <td>5005</td>
+                    <td><span class="closed">Closed</span></td>
+                </tr>
+                <tr>
+                    <td>106</td>
+                    <td>Olivia Martinez</td>
+                    <td>olivia.martinez@yahoo.com</td>
+                    <td>15-06-2024</td>
+                    <td>Active</td>
+                    <td>5006</td>
+                    <td><span class="open">Open</span></td>
+                </tr>
+                <tr>
+                    <td>107</td>
+                    <td>James Wilson</td>
+                    <td>james.wilson@gmail.com</td>
+                    <td>28-05-2024</td>
+                    <td>Active</td>
+                    <td>5007</td>
+                    <td><span class="closed">Closed</span></td>
+                </tr>
+                <tr>
+                    <td>108</td>
+                    <td>Linda Anderson</td>
+                    <td>linda.anderson@outlook.com</td>
+                    <td>10-04-2024</td>
+                    <td>Inactive</td>
+                    <td>5008</td>
+                    <td><span class="open">Open</span></td>
+                </tr>
+                <tr>
+                    <td>109</td>
+                    <td>Robert Thomas</td>
+                    <td>robert.thomas@gmail.com</td>
+                    <td>05-03-2024</td>
+                    <td>Active</td>
+                    <td>5009</td>
+                    <td><span class="closed">Closed</span></td>
+                </tr>
+                <tr>
+                    <td>110</td>
+                    <td>Patricia Lee</td>
+                    <td>patricia.lee@yahoo.com</td>
+                    <td>20-02-2024</td>
+                    <td>Active</td>
+                    <td>5010</td>
+                    <td><span class="open">Open</span></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="customer-cards">
+        <table class="customer-info">
+            <tr>
+                <th>Customer ID</th>
+                <td>101</td>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <td>John Doe</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>john.doe@gmail.com</td>
+            </tr>
+            <tr>
+                <th>Account created</th>
+                <td>01-10-2024</td>
+            </tr>
+            <tr>
+                <th>Status</th>
+                <td>Active</td>
+            </tr>
+        </table>
+
+        <table  class="customer-info">
+            <tr>
+                <th>Customer ID</th>
+                <td>102</td>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <td>Jane Smith</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>jane.smith@yahoo.com</td>
+            </tr>
+            <tr>
+                <th>Account created</th>
+                <td>15-09-2024</td>
+            </tr>
+            <tr>
+                <th>Status</th>
+                <td>Inactive</td>
+            </tr>
+        </table>
+
+        <table class="customer-info">
+            <tr>
+                <th>Customer ID</th>
+                <td>103</td>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <td>Michael Brown</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>michael.brown@gmail.com</td>
+            </tr>
+            <tr>
+                <th>Account created</th>
+                <td>20-08-2024</td>
+            </tr>
+            <tr>
+                <th>Status</th>
+                <td>Active</td>
+            </tr>
+        </table>
+
+        <table class="customer-info">
+            <tr>
+                <th>Customer ID</th>
+                <td>104</td>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <td>Emily Davis</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>emily.davis@outlook.com</td>
+            </tr>
+            <tr>
+                <th>Account created</th>
+                <td>10-07-2024</td>
+            </tr>
+            <tr>
+                <th>Status</th>
+                <td>Active</td>
+            </tr>
+        </table>
+
+        <table class="customer-info">
+            <tr>
+                <th>Customer ID</th>
+                <td>105</td>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <td>William Johnson</td>
+            </tr>
+            <tr>
+                <th>Email</th>
+                <td>william.johnson@gmail.com</td>
+            </tr>
+            <tr>
+                <th>Account created</th>
+                <td>05-06-2024</td>
+            </tr>
+            <tr>
+                <th>Status</th>
+                <td>Inactive</td>
+            </tr>
+        </table>
+    </div>
+
+    <p>Enter your mobile number or email</p>
+
+</body>
+
+</html>
