@@ -1,0 +1,40 @@
+nav{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+#navi{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+#nav-links{
+    display: flex;
+    flex-direction: column;
+    
+}
+#nav-links a{
+    align-items: center;
+    text-align: center;
+}
+#row-1{
+    display:flex;
+    column-gap: 3%;
+    white-space: nowrap;
+}
+#row-2{
+    display: flex;
+    column-gap: 10px;
+    
+}
+#row-2 a{
+    white-space: nowrap;
+}
+#form-de{
+    max-width: 40%;
+    padding-left: 10%;
+}
+#acc-details{
+    display: flex;
+    flex-direction: column;
+}
