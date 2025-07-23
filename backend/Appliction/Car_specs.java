@@ -25,5 +25,31 @@ public class Car_specs {
         System.out.println("Transmission Type: " + Transmission_Type);
         System.out.println("Gearbox: " + Gearbox);
         System.out.println("Drive Type: " + Drive_Type);
+        System.out.println();
+        System.out.println();
+
+
+        String variant = "S11(Diesel) 21.9 Lakh*";
+        String On_road_location = "New Delhi";
+        int On_road_price = 2190887;
+        int down_payment = 380000;
+        double bank_intrest_rate = 9.50;
+        double intrest_rate_month = bank_intrest_rate / (12 * 100);
+        byte loan_period_Years = 4;
+        int total_loan_amount = 1810887;
+        int loan_period_months=loan_period_Years*12;
+        double emi_per_month = (total_loan_amount * intrest_rate_month * Math.pow(1 + intrest_rate_month, loan_period_months))/(Math.pow(1 + intrest_rate_month, loan_period_months) - 1);
+        double payable_amount = emi_per_month*loan_period_months;
+        System.out.println("Variant: " + variant);
+        System.out.println("On-Road Location: " + On_road_location);
+        System.out.println("On-Road Price: " + On_road_price);
+        System.out.println("Down Payment: " + down_payment);
+        System.out.println("Total Loan Amount: " + total_loan_amount);
+        System.out.println("Loan Period (Year): " + loan_period_Years );
+        System.out.println("Loan Period (Months)"+loan_period_months);
+        System.out.println("Bank Interest Rate (Annual): " + bank_intrest_rate + "%");
+        System.out.println("Monthly EMI: " + (int)emi_per_month);
+        System.out.println("Total Payable Amount: " + (int)payable_amount);
+
     }
 }
