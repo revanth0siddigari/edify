@@ -36,7 +36,7 @@ public class Car_specs {
         double bank_intrest_rate = 9.50;
         double intrest_rate_month = bank_intrest_rate / (12 * 100);
         byte loan_period_Years = 4;
-        int total_loan_amount = 1810887;
+        int total_loan_amount = On_road_price-down_payment;
         int loan_period_months=loan_period_Years*12;
         double emi_per_month = (total_loan_amount * intrest_rate_month * Math.pow(1 + intrest_rate_month, loan_period_months))/(Math.pow(1 + intrest_rate_month, loan_period_months) - 1);
         double payable_amount = emi_per_month*loan_period_months;
