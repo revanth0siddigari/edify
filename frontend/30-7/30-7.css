@@ -10,6 +10,7 @@ body{
     padding: 10px;
     position: fixed;
     width: 100%;
+    z-index: 999;
 }
 .logo{
     margin-left: 30px;
@@ -202,7 +203,7 @@ body{
 }
 
 .c3-img img {
-  display: block;
+
   width: 100%;
   height: 100%;
 
@@ -210,4 +211,57 @@ body{
 .c3-img img:hover{
     transform: scale(1.1);
     transition: 0.5s;
+}
+.context-4{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px;
+  width: 100%;
+}
+.c4-container{
+    display: flex;
+}
+.c4-c1{
+    display: flex;
+    flex-direction: column;
+    max-width: 66.6%;
+    padding: 20px;
+}
+.c41-r1{
+    display: flex;
+}
+
+.c4-cc{
+    max-width: 50%;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+}
+.c4-cc1{
+    max-width: 100%;
+    overflow: hidden;
+}
+.c4-cc2{
+    max-width: 100%;
+    overflow: hidden;
+}
+.c4-c2{
+    max-width: 33.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.c4-cc img{
+    width: 100%;
+}
+.c4-cc a{
+    position: absolute;
+    z-index: 2;
+}
+.c4-cc1 img{
+    width: 100%;
+}
+.c4-cc2 img{
+    width: 100%;
 }
