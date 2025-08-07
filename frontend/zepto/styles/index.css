@@ -1,0 +1,108 @@
+.c-p{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.products{
+    display: flex;
+    justify-content: center;
+}
+.p-container{
+    max-width: 80rem;
+    display: flex;
+    column-gap: 10px;
+}
+.c-img{
+    position: relative;
+    max-width: 164px;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+.c-img img{
+    width: 100%;
+    transition: 0.5s;
+}
+.c-img img:hover{
+    transform: scale(1.1);
+}
+.c-img a{
+    position: absolute;
+    background-color: #fff;
+    border: .75px solid #f9105e;
+    box-shadow: 1px 1px #f9105e;
+    color: #f9105e;
+    right: 4px;
+    bottom: 4px;
+    z-index: 1;
+    width: 72px;
+    height: 28px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.c-price{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    margin-top: 10px;
+}
+.c-price h5{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 20px;
+}
+.c-price h5{
+    margin: 0px;
+}
+#p1-op,#p2-op,#p3-op,#p4-op,#p5-op,#p6-op{
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 14px;
+    text-decoration: line-through;
+}
+#p1-save,#p2-save,#p3-save,#p4-save,#p5-save,#p6-save{
+    align-items: center;
+    color: #329537;
+    font-size: 10px;
+    font-weight: 600;
+    gap: 2px;
+    letter-spacing: .5px;
+    line-height: 10px;
+    text-transform: uppercase;
+}
+#p1-q,#p2-q,#p3-q,#p4-q,#p5-q,#p6-q{
+    color: #586274;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 450;
+    letter-spacing: 0;
+    line-height: 14px;
+}
+.c-descr span{
+    align-items: center;
+    background: #edfafb;
+    border-radius: 4px;
+    color: #177582;
+    font-size: 12px;
+    font-weight: 500;
+    gap: 2px;
+    letter-spacing: 0;
+    line-height: 14px;
+    padding: 4px 6px;
+}
+.c-star{
+    font-size: 12px;
+    font-weight: 450;
+    letter-spacing: 0;
+    line-height: 14px;
+    color: #329537;
+}
+.c-rev{
+    color: #586274;
+    font-size: 12px;
+    font-weight: 450;
+    letter-spacing: 0;
+    line-height: 14px;
+}
