@@ -1,0 +1,158 @@
+nav{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
+#navi{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color: white;
+}
+#nav-links{
+    display: flex;
+    flex-direction: column;
+    
+}
+#nav-links a{
+    align-items: center;
+    text-align: center;
+}
+#row-1{
+    display:flex;
+    column-gap: 3%;
+    white-space: nowrap;
+}
+#row-2{
+    display: flex;
+    column-gap: 10px;
+    
+}
+#row-2 a{
+    white-space: nowrap;
+}
+.train-result{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.tr-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    max-width: 80%;
+    width: 100%;
+    
+    
+}
+.tr-r1{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    
+}
+.r1-r1,.r1-r3,.r1-r4{
+    background: #f5f5f5;
+    
+}
+.r1-r1,.r1-r2,.r1-r3,.r1-r4,.r1-r5{
+    padding: 10px;
+}
+.r1-r{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 46px;
+    
+}
+.r1-r h4{
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.r1-c3{
+    font-weight: 300;
+}
+.r1-c3 a{
+    font-weight: 300;
+    text-decoration: none;
+    color: #006effd2;
+    
+}
+.r1-c{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.r-b{
+    border-left: 3px solid black ;
+    border-right: 1px solid black;
+    padding:0px 5px ;
+}
+.r1-r3{
+    column-gap: 25px;
+        border-bottom: 1px solid #c8c8c8;
+}
+.r1r4-r1{
+    gap: 20px;
+}
+.r1r4-r1,.r1-r3{
+    display: flex;
+    
+    align-items: start;
+    
+}
+.desc-a{
+    text-decoration: none;
+    color: rgb(22, 102, 200);
+}
+
+.r4-c{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 40px;
+    min-width: 75px;
+    padding: 6px 12px;
+    white-space: nowrap;
+    overflow-x: hidden;
+    background: #fafafa;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    width: 178px;
+}
+.r1r4-r1{
+    align-items: center;
+}
+
+
+
+.r1-r5{
+    position: relative;
+    z-index: -1;
+}
+.t-tup{
+    position: absolute;
+    right:4px;
+    top: 4px;
+}
+.r1-r5 button{
+    background: #fdc9aa;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #b1b1b1;
+    border-radius: 6px;
+    color: white ;
+    border-color: #fb2b2b;
+    font-weight: 700;
+    width: auto;
+    padding: 10px;
+    margin: 0 3px;
+}
+#t-davail2{
+    color: rgb(21, 124, 31);
+}
