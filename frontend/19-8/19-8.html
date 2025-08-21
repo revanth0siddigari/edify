@@ -1,0 +1,61 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <script>
+        var voters = [
+            { age: 18, name: "Aarav", city: "Delhi", isRegistered: true },
+            { age: 25, name: "Simran", city: "Mumbai", isRegistered: false },
+            { age: 30, name: "John", city: "New York", isRegistered: true },
+            { age: 45, name: "Meera", city: "London", isRegistered: false },
+            { age: 20, name: "Karan", city: "Sydney", isRegistered: true },
+            { age: 28, name: "Sophia", city: "Toronto", isRegistered: true },
+            { age: 65, name: "Raj", city: "Bengaluru", isRegistered: false },
+            { age: 19, name: "Ananya", city: "Chennai", isRegistered: true },
+            { age: 35, name: "Michael", city: "Dubai", isRegistered: true },
+            { age: 36, name: "Micha", city: "Dubai", isRegistered: true },
+            { age: 38, name: "Micael", city: "Dubai", isRegistered: true },
+            { age: 50, name: "Leela", city: "Berlin", isRegistered: false },
+            { age: 22, name: "Ravi", city: "Delhi", isRegistered: true },
+            { age: 27, name: "Priya", city: "Mumbai", isRegistered: false },
+            { age: 41, name: "Daniel", city: "London", isRegistered: true },
+            { age: 33, name: "Sara", city: "Sydney", isRegistered: true },
+            { age: 60, name: "Aditi", city: "Toronto", isRegistered: false }
+        ];
+        var age_18_35=[];
+        var age_36_40=[];
+        var age_40=[];
+        var registerd=[];
+        var not_registerd=[];
+        for(var i=0;i<voters.length;i++){
+            if(voters[i].age >=18 && voters[i].age<=35){
+                age_18_35.push(voters[i]);
+            }
+            else if(voters[i].age >=36 && voters[i].age<=40){
+                age_36_40.push(voters[i]);
+            }
+            else if(voters[i].age >40){
+                age_40.push(voters[i]);
+            }
+            if(voters[i].isRegistered ){
+                registerd.push(voters[i]);
+            }
+            if(voters[i].isRegistered ==false ){
+                not_registerd.push(voters[i]);
+            }
+            
+        }
+        console.log("voters of age group 18-35",age_18_35);
+        console.log("voters of age group 36-40",age_36_40);
+        console.log("voters of age group above 40",age_40);
+        console.log("voters who registered",registerd);
+        console.log("voters who did't registered",not_registerd);
+
+
+    </script>
+</body>
+
+</html>

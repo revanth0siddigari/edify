@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     row-gap: 5px;
+    visibility: hidden;
 }
 .products{
     display: flex;
@@ -105,4 +106,14 @@
     font-weight: 450;
     letter-spacing: 0;
     line-height: 14px;
+}
+.vis{
+    visibility: visible;
+}
+.catbt{
+    display: flex;
+    flex-direction: column;
+    max-width: 10%;
+    position: absolute;
+    top: 20px;
 }
