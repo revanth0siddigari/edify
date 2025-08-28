@@ -1,4 +1,4 @@
-package Backend.LMS7;
+package Backend.LMS9;
 
 import six_class_obj_met.Student;
 
@@ -12,11 +12,10 @@ public class payment {
         // student s1 = new student();
         
 
-        student s1 = new student(7,"revanth");
-        s1.Student_info();
-
-        student s2 = new student(7,"revanth",20,123456788);
+        student s2 = new student(7,"revanth",20,123456788,"i have a reference",15000);
+        s2.Student_info();
         s2.Student_fullinfo();
+        s2.courseFee();
 
         s2.final_achievement();
 

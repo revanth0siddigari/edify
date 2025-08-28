@@ -1,32 +1,75 @@
-package Backend.LMS5;
+package Backend.LMS7;
 import java.util.Scanner;
 public class student {
 
-    int StudentID; 
-    String Student_Name;
-    int Student_Attendance;
-    int Student_Performance_Score;
-    int Trainer_Ratings;
+    int studentID; 
+    String student_name;
+    int studentAge;
+    long studentnum;
+    int student_attendance;
+    int student_performance_score;
+    int trainer_ratings;
     int attendance_credits;
     int performance_credits;
     int total_credits;
     int totalSessionsAttended;
 
+    public student(){
+         
+        this.studentAge=10000;
+        this.studentnum=100000;
+       
+
+
+    }
+
+    public student(int studentID,String student_name){
+        this(103, "John",  22,8090809);
+        this.studentID =studentID;
+        this.student_name=student_name;
+        
+
+    }
+    public student(int studentID,String student_name,int studentAge,long studentnum){
+         this.studentID =studentID;
+        this.student_name=student_name;
+        this.studentAge=studentAge;
+        this.studentnum=studentnum;
+
+    }
+    
     Scanner sc = new Scanner(System.in);
 
     public void Student_info(){
-        System.out.print("Enter student ID: ");
-        StudentID = sc.nextInt();
-        System.out.print("Enter student Name: ");
-        Student_Name = sc.next();
-        System.out.print("Enter student Attendance: ");
-        Student_Attendance = sc.nextInt();
+        // System.out.print("Enter student ID: ");
+        // studentID = sc.nextInt();
+        // System.out.print("Enter student Name: ");
+        // student_name = sc.next();
         System.out.println("======Student Details======");
-        System.out.println("Student ID: "+StudentID);
-        System.out.println("Student Name: "+Student_Name);
-        System.out.println("Student Attendance: "+Student_Attendance);
+        System.out.println("Student ID: "+studentID);
+        System.out.println("Student Name: "+student_name);
+        
+        
+
+    }
+    public void Student_fullinfo(){
+        // System.out.print("Enter student ID: ");
+        // studentID = sc.nextInt();
+        // System.out.print("Enter student Name: ");
+        // student_name = sc.next();
+        System.out.println("======Student Details======");
+        System.out.println("Student ID: "+studentID);
+        System.out.println("Student Name: "+student_name);
+        System.out.println("Student Attendance: "+student_attendance);
+        System.out.println("Student age: "+studentAge);
+        System.out.println("Student num: "+studentnum);
+        
+        
+
     }
     public int Attendancecredits(){
+        System.out.print("Enter student Attendance: ");
+        student_attendance = sc.nextInt();
         System.out.println("=======Session details=======");
         System.out.print("Enter the number of sessions attended:");
         totalSessionsAttended = sc.nextInt();

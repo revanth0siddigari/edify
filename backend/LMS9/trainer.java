@@ -1,4 +1,4 @@
-package Backend.LMS5;
+package Backend.LMS9;
 import java.util.Scanner;
 
 import six_class_obj_met.Student;

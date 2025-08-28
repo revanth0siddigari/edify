@@ -243,6 +243,7 @@ body{
     max-width: 10%;
     position: absolute;
     top: 20px;
+    position: fixed;
 }
 .cta:hover{ transform:translateY(-1px); }
 .cta:active{ transform:translateY(0); opacity:.9; }

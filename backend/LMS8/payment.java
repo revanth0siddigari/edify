@@ -1,4 +1,4 @@
-package Backend.LMS7;
+package Backend.LMS8;
 
 import six_class_obj_met.Student;
 
